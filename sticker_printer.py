@@ -5,7 +5,7 @@ from os.path import isfile, join
 import sys
 
 STICKER_DIRECTORY = './stickers'
-CAMPAIGN_DIRECTORY = './stickers'
+CAMPAIGN_DIRECTORY = './campaigns'
 
 class StickerPrinter:
 
