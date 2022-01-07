@@ -20,7 +20,7 @@ Python3 - this will probably work on python 2.7 but I have not tested.  This scr
 
 Linux Operating System (I don't think distribution should matter) - Why? Because this script will call the 'lp' command in order to talk to your default printer, and this command is strictly linux I believe (if for some reason you don't have the 'lp' command already, please conduct an online search on how to install)
 
-I included 9 example pictures, but if you wish to test with your own pictures load them in!
+I included 9 example pictures, but if you wish to test with your own pictures load them into the stickers directory.
 
 ## Architecture - What is everything doing?
 
