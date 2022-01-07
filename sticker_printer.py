@@ -54,8 +54,6 @@ if __name__ == '__main__':
     elif args[1] == 'from_ids':
         sticker_numbers = args[2:]
         sp.print_stickers_by_id(sticker_numbers)
-        num_to_print = 1
-        sp.print_stickers_by_id(sticker_numbers, num_to_print)
     elif args[1] == 'from_range':
         beginning_rng = args[2]
         ending_rng = args[3]
