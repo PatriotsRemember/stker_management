@@ -47,12 +47,12 @@ To print 1 copy of 1 or more stickers, you will use the following command.
 For 1 sticker:
 
 ```
-python3 sticker_printer.py 21
+python3 sticker_printer.py from_ids 21
 ``` 
 
 For several stickers:
 ```
-python3 sticker_printer.py 21 34 101
+python3 sticker_printer.py from_ids 21 34 101
 ```
 
 #### Print multiple copies of a range of stickers
@@ -61,7 +61,7 @@ Want to print your whole sticker set in multiple copies, or maybe just a subset?
 
 This command will allow you to do just that:
 ```
-python3 sticker_printer.py 50 100 2
+python3 sticker_printer.py from_range 50 100 2
 ``` 
 
 ^^ In the above command: 50 is the start number for finding files, 100 is the end number, and 2 is the number of copies you would like
