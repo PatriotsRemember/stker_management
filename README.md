@@ -24,7 +24,7 @@ Linux Operating System (I don't think distribution should matter) - Why? Because
 
 The python script is simple, it is housed in the file 'sticker_printer.py'
 
-The python script will look into the 'data_sources' directory for two things: 1) campaign_files (each campaign file is a file listing numbers) and 2) stickers - these are files prefixed with numbers.
+The python script will look for two things: 1) campaign_files (each campaign file is a file listing numbers) and 2) stickers - these are files prefixed with numbers.
 
 The WHOLE idea of this script revolves around number assignment for pictures. Numbers are easier to type than names, if you write the number on the back of a picture it is really easy to reference - then when you want to the print the picture, you just look for the file beginning with that number! 
 
