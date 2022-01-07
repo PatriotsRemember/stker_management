@@ -4,8 +4,8 @@ from os import listdir
 from os.path import isfile, join
 import sys
 
-STICKER_DIRECTORY = './data_sources/stickers'
-CAMPAIGN_DIRECTORY = './data_sources/stickers'
+STICKER_DIRECTORY = './stickers'
+CAMPAIGN_DIRECTORY = './stickers'
 
 class StickerPrinter:
 
